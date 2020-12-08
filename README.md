@@ -65,3 +65,4 @@ optional arguments:
   --train_gt_dir TRAIN_GT_DIR
                         location of training ground truths  
 
+### Submission link and video can be found [here](https://drive.google.com/drive/folders/1V9DqR_Ve9XxTKO77iSObGlJFpTghwx3R)
