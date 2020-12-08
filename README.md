@@ -1,26 +1,26 @@
 ### GNR638 Course Project
 ## Shubham Lohiya, Aditya Iyengar, Sharvaree Sinkar
 
-├── README.md
-├── code
-│   ├── ResNet_backbone.py
-│   ├── SINet.py
-│   ├── dataloader.py
-│   ├── search_attention.py
-│   ├── test.py
-│   ├── train.py
-│   └── trainer.py
-└── notebooks
-    ├── camouflaged_object_detection_main.ipynb
-    └── camouflaged_object_detection_modified.ipynb
+├── README.md  
+├── code  
+│   ├── ResNet_backbone.py  
+│   ├── SINet.py  
+│   ├── dataloader.py  
+│   ├── search_attention.py  
+│   ├── test.py  
+│   ├── train.py  
+│   └── trainer.py  
+└── notebooks  
+    ├── camouflaged_object_detection_main.ipynb  
+    └── camouflaged_object_detection_modified.ipynb  
 
-- dataloader.py (converts training and test datasets into iterable *dataloader* objects
-- ResNet_backbone.py (structure of the implemented ResNet for detection)
-- search_attention.py (architecture of the search attention module)
-- SINet.py (complete architecture of the model in the paper)
-- test.py (testing the model on the loaded test set)
-- train.py (training the model on the loaded train set)
-- trainer.py (defines all training parameters)
+- dataloader.py (converts training and test datasets into iterable *dataloader* objects  
+- ResNet_backbone.py (structure of the implemented ResNet for detection)  
+- search_attention.py (architecture of the search attention module)  
+- SINet.py (complete architecture of the model in the paper)  
+- test.py (testing the model on the loaded test set)  
+- train.py (training the model on the loaded train set)  
+- trainer.py (defines all training parameters)  
 
 usage: MyTest.py [-h] [--testsize TESTSIZE] [--model_path MODEL_PATH]
                  [--test_save TEST_SAVE]
